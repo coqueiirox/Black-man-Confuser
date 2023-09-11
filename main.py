@@ -4,6 +4,7 @@ from tkinter import filedialog
 import random
 import string
 
+# THIS IS NOT V2 SRC CODE
 
 def generate_noise():
     basic_confusers = [
