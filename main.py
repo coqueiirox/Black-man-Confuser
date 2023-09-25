@@ -11,7 +11,7 @@ def generate_noise():
         f'if not "%random%"=="%random%" echo This will never execute^',
         f'for %%i in (A B C D E F G H I J K) do echo %random%^'
     ]
-    return '^'.join(random.choices(junk_codes, k=1500))  # 30 vezes mais Junk Codes, em uma única linha.
+    return '^'.join(random.choices(junk_codes, k=1500))
 
 
 def confuse_content():
